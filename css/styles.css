@@ -431,6 +431,7 @@ img {
   flex-direction: column;
 }
 .join {
+  width: 206px;
   margin-bottom: 20px;
   font-weight: bold;
   font-size: 14px;
@@ -483,6 +484,7 @@ img {
   margin-left: auto;
 }
 .subscribe-title {
+  width: 570px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
