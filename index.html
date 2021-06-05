@@ -448,10 +448,13 @@
           <p class="subscribe-title">Подпишитесь на рассылку</p>
           <form action="#">
             <div class="subscribe-label-wrapper">
-              <input type="email" name="mail" class="subscribe-input" />
-              <label class="subscribe-label">
-                E-mail
-              </label>
+              <input
+                type="email"
+                name="mail"
+                class="subscribe-input"
+                placeholder="E-mail"
+              />
+
               <button type="submit" class="subscribe-btn">
                 Подписаться
                 <svg class="subscribe-icon">
@@ -474,17 +477,17 @@
         <form action="#" class="modal-form">
           <p class="modal-form-head">Оставьте свои данные, мы вам перезвоним</p>
 
-          <label for="" class="modal-form-label">
+          <label class="modal-form-label">
             Имя
             <span class="modal-form-wrapper">
-              <input type="name" name="name" class="modal-form-input" />
+              <input type="text" name="name" class="modal-form-input" />
               <svg class="modal-form-icon">
                 <use href="./images/icons.svg#icon-person"></use>
               </svg>
             </span>
           </label>
 
-          <label for="" class="modal-form-label">
+          <label class="modal-form-label">
             Телефон
             <span class="modal-form-wrapper">
               <input type="tel" name="tel" class="modal-form-input" />
@@ -494,7 +497,7 @@
             </span>
           </label>
 
-          <label for="" class="modal-form-label">
+          <label class="modal-form-label">
             Почта
             <span class="modal-form-wrapper">
               <input type="email" name="mail" class="modal-form-input" />
@@ -503,11 +506,10 @@
               </svg>
             </span>
           </label>
-          <label for="" class="modal-form-label">
+          <label class="modal-form-label">
             Комментарий
             <textarea
-              name=""
-              id=""
+              name="comment"
               cols="30"
               rows="10"
               class="modal-form-textarea"
